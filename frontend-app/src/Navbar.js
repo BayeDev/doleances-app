@@ -7,7 +7,7 @@ import Search from "./Search"
 export default function Navbar(){
     return (
         <div>
-            <nav className="bg-primary text-grey-900 flex justify-between">
+            <nav className="text-grey-900 flex justify-between mx-4 mt-2">
                 <div className="flex justify-between space-x-4 m-2">
                     <div><Logo/></div>
                     <div className=""><Search/></div>
