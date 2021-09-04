@@ -8,7 +8,7 @@ import RegisterPage from "./RegisterPage"
 import HomePage from "./HomePage"
 
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Switch,
     Route,
     Link
@@ -18,7 +18,6 @@ import {
 
 export default function Navbar(){
     return (
-        <Router>
         <div>
             <nav className="text-grey-900 flex justify-between mx-4 mt-2">
                 <div className="flex justify-between space-x-4 m-2">
@@ -36,16 +35,22 @@ export default function Navbar(){
                     </Link>
                 </div>
             </div>
-            
             </nav>
-
         </div>
-      
-    
-        </Router>
     );
 }
-/**  <Switch>
+/** 
+ * <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+                <Link to="/login"><Login/></Link>
+            </Route>
+            <Route path="/login">
+                <LoginPage />
+            </Route>
+          </Switch>
+ * 
+ *  <Switch>
                 <Route exact path="/login">
                     <LoginPage />
                 </Route>
