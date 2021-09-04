@@ -39,25 +39,3 @@ export default function Navbar(){
         </div>
     );
 }
-/** 
- * <BrowserRouter>
-          <Switch>
-            <Route exact path="/">
-                <Link to="/login"><Login/></Link>
-            </Route>
-            <Route path="/login">
-                <LoginPage />
-            </Route>
-          </Switch>
- * 
- *  <Switch>
-                <Route exact path="/login">
-                    <LoginPage />
-                </Route>
-                <Route exact path="/register">
-                    <RegisterPage />
-                </Route>
-                <Route exact path="/">
-                    <HomePage />
-                </Route>
-            </Switch> */

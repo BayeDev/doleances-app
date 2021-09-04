@@ -2,9 +2,10 @@
 
 export default function RegisterPage(){
     return(
-            <div className>
+        <body className="min-h-screen bg-gray-400">
+            <div>
                 This is registration page...
             </div>
-       
+       </body>
     )
 }
