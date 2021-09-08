@@ -1,5 +1,8 @@
 1. Creat Navbar
 2. Create navbar pages
+    Home page
+    register page
+    login page
 3. Create form for posts
 4. Create comments
 5. Create Likes
