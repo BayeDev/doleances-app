@@ -3,7 +3,7 @@
 export default function RegisterPage(){
     return(
        
-    <div className="flex justify-center flex-1 max-w-screen-xl m-0 bg-white shadow sm:m-20 sm:rounded-lg">
+    <div className="flex justify-center flex-1 max-w-screen-xl m-0 bg-gray-50 shadow sm:m-20 sm:rounded-lg">
 
         <div className="flex-1 hidden text-center bg-indigo-100 lg:flex">
             <div className="w-full m-12 bg-center bg-no-repeat bg-contain xl:m-16"></div>
@@ -51,7 +51,7 @@ export default function RegisterPage(){
                         <button
                             className="flex items-center justify-center w-full max-w-xs py-1 mt-5 font-bold text-gray-800 transition-all duration-300 ease-in-out bg-indigo-100 rounded-lg shadow-sm focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
                             <div className="p-1">
-                                <img src={'\icons8-instagram-logo.svg'}/>                            </div>
+                                <img src={'/public/intagram.svg'}/>                            </div>
                             <span className="ml-2">
                                 Inscrivez-vous avec Instagram
                             </span>

@@ -1,7 +1,7 @@
 //Search component
 export default function Search(){
     return(
-        <form className="w-full h-10 pl-3 pr-2 bg-white border rounded-sm flex justify-between items-center relative">
+        <form className="w-full h-10 pl-3 pr-2 bg-white border rounded-sm flex justify-between items-center relative mt-1">
         <input type="text" name="query" placeholder="Rechercher doleances..."
                 className="appearance-none w-full outline-none focus:outline-none active:outline-none" value=""/>
         <button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none">

@@ -19,7 +19,7 @@ import {
 export default function Navbar(){
     return (
         <div>
-            <nav className="text-grey-900 flex justify-between mx-4 mt-2">
+            <nav className="text-grey-900 flex justify-between mx-4 p-1" style={{backgroundImage:'linear-gradient(to right, rgb(91, 121, 162) 0%, rgb(46, 68, 105) 100%)'}}>
                 <div className="flex justify-between space-x-4 m-2">
                     <div><Link to="/"><Logo/></Link></div>
                     <div className=""><Search/></div>
