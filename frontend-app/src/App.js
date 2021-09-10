@@ -17,6 +17,8 @@ function App() {
   <BrowserRouter>
     <div>
      <Navbar />
+
+     
      <Switch>
                 <Route path="/login">
                     <LoginPage />
